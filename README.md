@@ -14,15 +14,36 @@ This dataset contains information on default payments, demographic factors, cred
 # Technical Aspect
 This project is divided into two part:
 
-Training a RandomForestClassifier classification model to predict defaulter as accurate as possible.
- Cleaning the datasets, fixing all features
-  Apply Classification ML model
-Building and hosting a Flask web app on Heroku.
-  Build the web app using Flask API
-  Upload the project on GitHub
-  Get the customer information from Web app
-  Display the prediction
-  # Installation
-  The Code is written in Python 3.7. If you don't have Python installed you can find it here. If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
-
+## Technical Aspect
+This project is divided into two part:
+1. Training a [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) classification model to predict defaulter as accurate as possible.
+	- Cleaning the datasets, fixing all features
+	- Apply Classification ML model
+2. Building and hosting a Flask web app on Heroku.
+	- Build the web app using Flask API
+	- Upload the project on GitHub
+    - Get the customer information from Web app
+    - Display the prediction 
+## Installation
+The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+```bash
 pip install -r requirements.txt
+```
+## Directory Tree 
+```
+├── templates 
+│   └── index.html
+├── app.py
+├── credit-card-default.csv
+├── credit_default_prediction.py
+├── model.pkl
+├── Procfile
+├── README.md
+├── HLD document
+├── LLD Document
+├── Detailed Description Presentation
+├── log file
+├── wireframe pdf
+├── README.md
+└── requirements.txt
+```
